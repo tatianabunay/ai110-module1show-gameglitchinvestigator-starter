@@ -41,12 +41,15 @@ I decided whether a bug was really fixed by checking the new output in the updat
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-
+I would explain that every time the user types in the box or clicks a button, Streamlit runs the entire script from top to bottom. This basically refreshes everything everytime the user interacts with the app, which means every time you submit a guess, Streamlit reruns the entire app, allowing changes to occur. As for session state, it is like the memory that persists across reruns. It is a dictionary that remembers things through variables even if you refresh the page.
 ---
 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+  - One habit I want to reuse is using the "Ask" feature to help me understand how to fix the code. Before, I didn't know how to change the mode so I accidentally had it in Agent mode and then got confused. 
 - What is one thing you would do differently next time you work with AI on a coding task?
+- One thing I would do differently is to commit after every change. Unfortunately, I forgot to do this so my commit ended up being long.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+- This project helped me realize that AI can be useful in debugging code but it can also make mistakes so it's important to debug with it to ensure effectiveness in making code fixes.
